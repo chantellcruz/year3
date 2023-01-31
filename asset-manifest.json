@@ -1,16 +1,20 @@
 {
-  "files": {
-    "main.css": "/year3/static/css/main.073c9b0a.css",
-    "main.js": "/year3/static/js/main.78a70015.js",
-    "static/js/787.13f44d84.chunk.js": "/year3/static/js/787.13f44d84.chunk.js",
-    "static/media/logo.svg": "/year3/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/year3/index.html",
-    "main.073c9b0a.css.map": "/year3/static/css/main.073c9b0a.css.map",
-    "main.78a70015.js.map": "/year3/static/js/main.78a70015.js.map",
-    "787.13f44d84.chunk.js.map": "/year3/static/js/787.13f44d84.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.78a70015.js"
-  ]
+  "main.css": "/year3/static/css/main.9a8f433a.chunk.css",
+  "main.js": "/year3/static/js/main.f656a18e.chunk.js",
+  "main.js.map": "/year3/static/js/main.f656a18e.chunk.js.map",
+  "runtime~main.js": "/year3/static/js/runtime~main.54438094.js",
+  "runtime~main.js.map": "/year3/static/js/runtime~main.54438094.js.map",
+  "static/js/2.2eaaab36.chunk.js": "/year3/static/js/2.2eaaab36.chunk.js",
+  "static/js/2.2eaaab36.chunk.js.map": "/year3/static/js/2.2eaaab36.chunk.js.map",
+  "static/js/3.d2768564.chunk.js": "/year3/static/js/3.d2768564.chunk.js",
+  "static/js/3.d2768564.chunk.js.map": "/year3/static/js/3.d2768564.chunk.js.map",
+  "index.html": "/year3/index.html",
+  "precache-manifest.8453ff475fd0443fdc8339ef67f8256b.js": "/year3/precache-manifest.8453ff475fd0443fdc8339ef67f8256b.js",
+  "service-worker.js": "/year3/service-worker.js",
+  "static/css/main.9a8f433a.chunk.css.map": "/year3/static/css/main.9a8f433a.chunk.css.map",
+  "static/media/Home.css": "/year3/static/media/BeachesAndCream.3d4a4668.otf",
+  "static/media/batuu.png": "/year3/static/media/batuu.62a7c820.png",
+  "static/media/lego-heart.gif": "/year3/static/media/lego-heart.61248a99.gif",
+  "static/media/rainier.png": "/year3/static/media/rainier.2ea565b1.png",
+  "static/media/rainier2.png": "/year3/static/media/rainier2.3a20f1cf.png"
 }
