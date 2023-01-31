@@ -1,0 +1,44 @@
+#moments {
+    min-height: 50vh;
+    padding: 10vh 0;
+}
+
+#moments h1 {
+    font-family: poppins, sans-serif;
+    text-transform: none;
+    color:#DF7653;
+    font-size: 48px;
+    font-weight: 500;
+    letter-spacing: -2px;
+    line-height: 1.4em;
+    margin-bottom: -10px;
+}
+
+h2 {
+    font-family: BeachesAndCream;
+    letter-spacing: -1px;
+    color:#e6a28b;
+    font-size: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+#moments .flex-container #column {
+    width: 500px;
+    margin: 15px;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.flex-container #column h1 {
+    color: #e6a28b;
+    font-family: poppins, sans-serif;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 2em;
+}

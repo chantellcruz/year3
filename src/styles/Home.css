@@ -1,0 +1,38 @@
+.home {
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: BeachesAndCream, sans-serif;
+  font-weight: 100;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  color: #333333;
+  line-height: 2em;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #DF7653;
+}
+
+.home button {
+  background-color: #DF7653;
+  padding: 16px 20px;
+  border-radius: 8px;
+  border: none;
+  color: #fcf4e8;
+}
+
+@font-face {
+  font-family: BeachesAndCream;
+  src: url("../assets/BeachesAndCream.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Aurebesh;
+  src: url("../assets/Aurebesh.otf") format("opentype");
+}
