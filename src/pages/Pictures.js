@@ -1,5 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Rainier from '../assets/rainier.png';
 import Rainier2 from '../assets/rainier2.png';
 import Batuu from '../assets/batuu.png';
