@@ -21,3 +21,15 @@ body {
   flex-direction: column;
   text-align: center;
 }
+
+h1 {
+  font-family: poppins, sans-serif;
+  text-transform: none;
+  color:#DF7653;
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: 0px;
+  line-height: 1.4em;
+  margin-bottom: -10px;
+  text-transform: lowercase;
+}

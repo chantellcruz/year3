@@ -4,7 +4,7 @@ import '../styles/Banner.css';
 const ScrollTextDiv = "✸";
 const ScrollTextBase = "happy anniversary";
 
-const num = 18;
+const num = 12;
 
 export default class ScrollText extends PureComponent {
   render() {
