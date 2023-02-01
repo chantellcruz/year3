@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 function ComingSoon() {
   return (
@@ -6,7 +6,7 @@ function ComingSoon() {
       <h1>Coming soon!</h1>
       <div className="paragraph">
       <p>
-        A Valentines Day update is set to launch on 2/24/2023!
+        A <vday>Valentines Day</vday> update is set to launch on 2/24/2023!
         Be sure to check back here to see what it could beeeee. :D
       </p>
       </div>

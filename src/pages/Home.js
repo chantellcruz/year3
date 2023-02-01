@@ -1,10 +1,7 @@
 import React from 'react';
 import '../styles/Home.css';
 import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 import Lego from '../assets/lego-heart.gif';
-import { useRef } from 'react';
 
 
 
@@ -27,7 +24,7 @@ export default function Home() {
 
 
   return (
-    <div className="home">
+    <div id="home">
       <Container>
         <img src={Lego} width="800px" />
         <h1>Yay we made it 3 years</h1>

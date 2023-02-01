@@ -35,6 +35,19 @@ h1 {
   text-transform: lowercase;
 }
 
+h2 {
+  font-family: BeachesAndCream;
+  letter-spacing: -1px;
+  color:#e6a28b;
+  font-size: 50px;
+}
+
+vday {
+  color:#e6a28b;
+  font-weight: 800;
+  border-bottom: 2px solid #e6a28b;
+}
+
 #pictures, #stats, #coming-soon {
   padding: 10vh 0;
   background-color: #F8EBD8;
@@ -44,4 +57,14 @@ h1 {
   width: 500px;
   padding-top: 30px;
   margin: auto;
+}
+
+/* highlight textx */
+::-moz-selection { 
+  color: #F9EFE0;
+  background: #DF7653;
+}
+::selection {
+  color: #F9EFE0;
+  background: #DF7653;
 }

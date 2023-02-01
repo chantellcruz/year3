@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 import MenuIcon from '@mui/icons-material/Menu';
-import { Scroll } from 'react-scroll';
 
 function Navbar() {
 
