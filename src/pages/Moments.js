@@ -9,22 +9,22 @@ function Moments() {
     <div id="moments">
       <h1>A few of my favorite moments together</h1>
       <div className="flex-container">
-  <div id="column">
-  <img src={Rainier} width="450px" />
-    <h2>Hiking at rainier</h2>
-    <p>the first time, where we could actually see her and when we really started becoming friends</p>
-    </div>
-  <div id="column">
-  <img src={Rainier2} width="450px" />
-  <h2>Hiking at rainier pt. 2</h2>
-    <p>where i thought we were going to die from "exposure to the elements" (but didn't)</p>
-    </div>
-  <div id="column">
-  <img src={Batuu} width="450px" />
-    <h2>visiting batuu</h2>
-    <p>i really enjoyed you enjoying all the star wars things and being at disney finally :-{')'}</p>
-    </div>
-</div>
+        <div id="column">
+          <img src={Rainier} />
+          <h2>Hiking at rainier</h2>
+          <p>the first time, where we could actually see her and when we really started becoming friends</p>
+        </div>
+        <div id="column">
+          <img src={Rainier2} />
+          <h2>Hiking at rainier pt. 2</h2>
+          <p>where i thought we were going to die from "exposure to the elements" (but didn't)</p>
+        </div>
+        <div id="column">
+          <img src={Batuu} />
+          <h2>visiting batuu</h2>
+          <p>i really enjoyed you enjoying all the star wars things and being at disney finally :-{')'}</p>
+        </div>
+      </div>
     </div>
   )
 }

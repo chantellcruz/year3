@@ -4,11 +4,9 @@ import Container from 'react-bootstrap/Container';
 import Lego from '../assets/lego-heart.gif';
 
 function Home() {
-
   const scrollToStats = () => {
     const element = document.getElementById('stats');
     if (element) {
-      // 👇 Will scroll smoothly to the top of the next section
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
@@ -19,7 +17,9 @@ function Home() {
         <img src={Lego} width="800px" />
         <h1>Yay we made it 3 years</h1>
         <p>wowowowow. look at us.</p>
-        <button className="btn-scroll" onClick={scrollToStats} style={{outline: 'none'}}>let's see some stats</button>
+        <button className="btn-scroll" onClick={scrollToStats} style={{ outline: 'none' }}>
+          let's see some stats
+        </button>
       </Container>
     </div>
   );

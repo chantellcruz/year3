@@ -1,14 +1,12 @@
 import React from 'react';
-import Trash from '../assets/trash.png';
 import '../styles/Note.css';
-
 
 function Note() {
     return (
         <div id="note">
             <h1>a lil note from me</h1>
             <div className="paragraph">
-                <p>Hi boyfriend. :-{') '} 
+                <p>Hi boyfriend. :-{') '}
                     I hope you enjoy this lil webpage that I made and don't think if it's too cringe.
                     If you think it's too cringe...  it's too late.
                     It is on the internet now. :0

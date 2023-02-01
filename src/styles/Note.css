@@ -2,6 +2,12 @@
     background-image: url('../assets/trashh.png');
     background-size: 80vw;
     padding: 10vh;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1440px) {
+    #note {
+        background-size: 100vw;
+    }
 }

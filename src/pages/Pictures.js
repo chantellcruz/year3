@@ -19,24 +19,23 @@ import Fourteen from '../assets/photos/014.jpg';
 
 export default function Pictures() {
   return (
-
     <div id="pictures">
       <h1>Some pictures, just because</h1>
       <div className="flex-container">
-    <Box sx={{ width: '70vw' }}>
-      <ImageList variant="masonry" cols={3} gap={30}>
-        {itemData.map((item) => (
-          <ImageListItem key={item.img}>
-            <img
-              src={`${item.img}?w=248&fit=crop&auto=format`}
-              srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
-              alt={item.title}
-              loading="lazy"
-            />
-          </ImageListItem>
-        ))}
-      </ImageList>
-    </Box></div></div>
+        <Box sx={{ width: '70vw' }}>
+          <ImageList variant="masonry" cols={3} gap={30}>
+            {itemData.map((item) => (
+              <ImageListItem key={item.img}>
+                <img
+                  src={`${item.img}?w=248&fit=crop&auto=format`}
+                  srcSet={`${item.img}?w=248&fit=crop&auto=format&dpr=2 2x`}
+                  alt={item.title}
+                  loading="lazy"
+                />
+              </ImageListItem>
+            ))}
+          </ImageList>
+        </Box></div></div>
   );
 }
 
@@ -49,7 +48,7 @@ const itemData = [
     img: Fourteen,
     title: 'Rainier 2019',
   },
-  
+
   {
     img: Three,
     title: 'Disney 2022',
@@ -70,7 +69,7 @@ const itemData = [
     img: Seven,
     title: 'Braves',
   },
-  
+
   {
     img: Eight,
     title: 'Shrimp',
@@ -99,5 +98,5 @@ const itemData = [
     img: Thirteen,
     title: 'PAX South 2019',
   },
-  
+
 ];

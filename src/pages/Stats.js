@@ -1,13 +1,10 @@
 import React from 'react';
 import '../styles/Stats.css';
 import CountUp, { useCountUp } from 'react-countup';
-import VisibilitySensor from "react-visibility-sensor";
 
 function Stats() {
-
   useCountUp({
     ref: 'counter',
-    end: 1234567,
     enableScrollSpy: true,
     scrollSpyDelay: 1000,
   });
@@ -41,7 +38,7 @@ function Stats() {
           <p>months of dating</p>
         </div>
         <div id="column">
-        <CountUp end={8} duration={1} enableScrollSpy
+          <CountUp end={8} duration={1} enableScrollSpy
             style={{
               fontSize: '80px',
               letterSpacing: '-2px',
@@ -52,7 +49,7 @@ function Stats() {
           <p>national parks visited</p>
         </div>
         <div id="column">
-        <CountUp end={1038} duration={4} enableScrollSpy
+          <CountUp end={1038} duration={4} enableScrollSpy
             style={{
               fontSize: '80px',
               letterSpacing: '-2px',
@@ -88,7 +85,7 @@ function Stats() {
           <p>in-person baseball games</p>
         </div>
         <div id="column">
-        <CountUp end={15} duration={2} enableScrollSpy
+          <CountUp end={15} duration={2} enableScrollSpy
             style={{
               fontSize: '80px',
               letterSpacing: '-2px',
@@ -99,7 +96,7 @@ function Stats() {
           <p>states visited</p>
         </div>
         <div id="column">
-        <CountUp end={8} duration={1} enableScrollSpy
+          <CountUp end={8} duration={1} enableScrollSpy
             style={{
               fontSize: '80px',
               letterSpacing: '-2px',

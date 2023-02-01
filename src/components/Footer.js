@@ -5,11 +5,9 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Lego from '../assets/lego-heart-white.png';
 
 function Footer() {
-
     const scrollToStats = () => {
         const element = document.getElementById('stats');
         if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
@@ -17,7 +15,6 @@ function Footer() {
     const scrollToMoments = () => {
         const element = document.getElementById('moments');
         if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
@@ -25,7 +22,6 @@ function Footer() {
     const scrollToPictures = () => {
         const element = document.getElementById('pictures');
         if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
@@ -33,7 +29,6 @@ function Footer() {
     const scrollToNote = () => {
         const element = document.getElementById('note');
         if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
@@ -41,7 +36,6 @@ function Footer() {
     const scrollToHome = () => {
         const element = document.getElementById('home');
         if (element) {
-            // 👇 Will scroll smoothly to the top of the next section
             element.scrollIntoView({ behavior: 'smooth' });
         }
     };
@@ -51,7 +45,6 @@ function Footer() {
             <h2>Happy 3 year anniversary</h2>
 
             <div id="content">
-
                 <div className="footer-1">
                     <img src={Lego} height="150px" />
                 </div>
@@ -77,7 +70,6 @@ function Footer() {
                         <button>ilysm! {'>'}:{'('}</button>
                     </div>
                 </div>
-
             </div>
             <tinyfooter>coded with &hearts; by chantell</tinyfooter>
         </div >

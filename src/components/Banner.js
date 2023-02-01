@@ -1,10 +1,10 @@
 import React, { PureComponent } from "react";
 import '../styles/Banner.css';
 
-const ScrollTextDiv = "✸";
+const ScrollTextDiv = "✶";
 const ScrollTextBase = "happy anniversary";
 
-const num = 12;
+const num = 11;
 
 export default class ScrollText extends PureComponent {
   render() {
@@ -12,7 +12,7 @@ export default class ScrollText extends PureComponent {
     for (var i = 0; i < num; i++) {
       content.push(
         <p key={2 * i} className="scroll-text">
-          {ScrollTextBase} 
+          {ScrollTextBase}
         </p>
       );
       content.push(
@@ -20,9 +20,7 @@ export default class ScrollText extends PureComponent {
           {ScrollTextDiv}
         </p>
       );
-      
     }
     return <div className="scroll-text-row">{content}</div>;
-    
   }
 }

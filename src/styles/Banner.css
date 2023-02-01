@@ -1,60 +1,35 @@
 .roll {
-    position: absolute;
-    top: 0px;
-    z-index: -100;
-  }
-  
-  .scroll-text-row {
-    margin: 0%;
-    padding: 0.5em 10em;
-    width: 240%;
-    background-color: #e6a28b;
-    display: flex;
-    flex-wrap: nowrap;
-    animation: move 45s infinite linear;
-    justify-content: space-between;
-    overflow: hidden;
-  }
-  @keyframes move {
-    to {
-      transform: translateX(-50%);
-    }
-  }
-  
-  .scroll-text {
-    margin: 0;
-    padding-left: 0px;
-    width: 20%;
-    font-family: Aurebesh;
-    letter-spacing: 4px;
-  }
-  
-  .scroll-text-div {
-    margin: 0;
-    padding-left: 0px;
-    width: 2%;
-  }
+  position: absolute;
+  top: 0px;
+  z-index: -100;
+}
 
+.scroll-text-row {
+  margin: 0%;
+  padding: 0.5em 10em;
+  width: 240%;
+  background-color: #e6a28b;
+  display: flex;
+  flex-wrap: nowrap;
+  animation: move 40s infinite linear;
+  justify-content: space-around;
+  overflow: hidden;
+}
 
-  .marquee {
-    margin: 0 auto;
-    white-space: nowrap;
-    overflow: hidden;
-    position: absolute;
+@keyframes move {
+  to {
+    transform: translateX(-50%);
   }
-  
-  .marquee span {
-    display: inline-block;
-    animation: marquee 5s linear infinite;
-    width: 100%;
-    text-align: left;
-  }
-  
-  @keyframes marquee {
-    0% {
-      transform: translate(0, 0);
-    }
-    100% {
-      transform: translate(-100%, 0);
-    }
-  }
+}
+
+.scroll-text {
+  margin: 0;
+  padding-left: 0px;
+  font-family: Aurebesh;
+  letter-spacing: 2px;
+}
+
+.scroll-text-div {
+  margin: 0;
+  padding-left: 0px;
+}
