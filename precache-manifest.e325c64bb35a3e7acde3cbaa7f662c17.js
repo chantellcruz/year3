@@ -1,23 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "c4a0b925d494fed11cfd",
-    "url": "/year3/static/css/main.f4dbee3a.chunk.css"
+    "revision": "a2fe97a024074188147e",
+    "url": "/year3/static/css/main.fd73a6da.chunk.css"
   },
   {
-    "revision": "c4a0b925d494fed11cfd",
-    "url": "/year3/static/js/main.21beedad.chunk.js"
+    "revision": "a2fe97a024074188147e",
+    "url": "/year3/static/js/main.50144475.chunk.js"
   },
   {
-    "revision": "41870ae4d9d9b5b5e515",
-    "url": "/year3/static/js/runtime~main.4bf64cd3.js"
+    "revision": "d703939eb96bb0ffad6e",
+    "url": "/year3/static/js/runtime~main.28a788dd.js"
   },
   {
-    "revision": "3ed51efeef548b8da9b4",
-    "url": "/year3/static/js/2.8c338d22.chunk.js"
+    "revision": "c6bfc8d6e6bb3c25f663",
+    "url": "/year3/static/js/2.902ea58d.chunk.js"
   },
   {
-    "revision": "52b9eb7b02795767ae23",
-    "url": "/year3/static/js/3.98ddad6b.chunk.js"
+    "revision": "8dc02e59a2839720f202",
+    "url": "/year3/static/js/3.b2f32255.chunk.js"
+  },
+  {
+    "revision": "2e26069b0bc9d3d2f6c96ca7470fba1d",
+    "url": "/year3/static/media/lego-heart-white.2e26069b.png"
   },
   {
     "revision": "61248a999e0387ae02f5811a5a6621f6",
@@ -92,6 +96,10 @@ self.__precacheManifest = [
     "url": "/year3/static/media/014.57b4b5eb.jpg"
   },
   {
+    "revision": "998757d44b4f7ca48ccb05a9ae6df90c",
+    "url": "/year3/static/media/coming-soon.998757d4.png"
+  },
+  {
     "revision": "3d4a46685ab3c59bc4c2c628ff4f3f02",
     "url": "/year3/static/media/BeachesAndCream.3d4a4668.otf"
   },
@@ -100,7 +108,11 @@ self.__precacheManifest = [
     "url": "/year3/static/media/Aurebesh.c3b887af.otf"
   },
   {
-    "revision": "deb12e097cae163bb62d16825d950298",
+    "revision": "34f735d9c0e80a5d95fc44d0e320ce99",
+    "url": "/year3/static/media/trashh.34f735d9.png"
+  },
+  {
+    "revision": "ab4bc355e3b1139bc3513c7140d9ef5b",
     "url": "/year3/index.html"
   }
 ];
