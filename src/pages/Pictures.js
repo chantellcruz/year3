@@ -2,14 +2,27 @@ import * as React from 'react';
 import Box from '@mui/material/Box';
 import ImageList from '@mui/material/ImageList';
 import ImageListItem from '@mui/material/ImageListItem';
-import '../styles/Pictures.css';
+import One from '../assets/photos/001.jpg';
+import Two from '../assets/photos/002.jpg';
+import Three from '../assets/photos/003.jpg';
+import Four from '../assets/photos/004.jpg';
+import Five from '../assets/photos/005.jpg';
+import Six from '../assets/photos/006.jpg';
+import Seven from '../assets/photos/007.jpg';
+import Eight from '../assets/photos/008.jpg';
+import Nine from '../assets/photos/009.jpg';
+import Ten from '../assets/photos/010.jpg';
+import Eleven from '../assets/photos/011.jpg';
+import Twelve from '../assets/photos/012.jpg';
+import Thirteen from '../assets/photos/013.jpg';
+import Fourteen from '../assets/photos/014.jpg';
 
 export default function Pictures() {
   return (
 
     <div id="pictures">
       <h1>Some pictures, just because</h1>
-      <div class="flex-container">
+      <div className="flex-container">
     <Box sx={{ width: '70vw' }}>
       <ImageList variant="masonry" cols={3} gap={30}>
         {itemData.map((item) => (
@@ -29,51 +42,62 @@ export default function Pictures() {
 
 const itemData = [
   {
-    img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
-    title: 'Bed',
+    img: One,
+    title: 'HCS Raleigh',
   },
   {
-    img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
-    title: 'Books',
+    img: Fourteen,
+    title: 'Rainier 2019',
+  },
+  
+  {
+    img: Three,
+    title: 'Disney 2022',
   },
   {
-    img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
-    title: 'Sink',
+    img: Four,
+    title: 'Lego Store',
   },
   {
-    img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
-    title: 'Kitchen',
+    img: Five,
+    title: 'Bloody Nose',
   },
   {
-    img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
-    title: 'Blinds',
+    img: Six,
+    title: 'Dreamhack 2022',
   },
   {
-    img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
-    title: 'Chairs',
+    img: Seven,
+    title: 'Braves',
+  },
+  
+  {
+    img: Eight,
+    title: 'Shrimp',
   },
   {
-    img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
-    title: 'Laptop',
+    img: Two,
+    title: 'Rainier 2022',
   },
   {
-    img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
-    title: 'Doors',
+    img: Nine,
+    title: 'Happi',
   },
   {
-    img: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7',
-    title: 'Coffee',
+    img: Ten,
+    title: 'Arches',
   },
   {
-    img: 'https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee',
-    title: 'Storage',
+    img: Eleven,
+    title: 'Tigers vs. Twins',
   },
   {
-    img: 'https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62',
-    title: 'Candle',
+    img: Twelve,
+    title: 'me when i see u',
   },
   {
-    img: 'https://images.unsplash.com/photo-1519710164239-da123dc03ef4',
-    title: 'Coffee table',
+    img: Thirteen,
+    title: 'PAX South 2019',
   },
+  
 ];

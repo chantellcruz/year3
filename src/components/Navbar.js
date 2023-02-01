@@ -28,6 +28,22 @@ function Navbar() {
         }
       };
 
+      const scrollToPictures = () => {
+        const element = document.getElementById('pictures');
+        if (element) {
+          // 👇 Will scroll smoothly to the top of the next section
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
+      const scrollToNote = () => {
+        const element = document.getElementById('note');
+        if (element) {
+          // 👇 Will scroll smoothly to the top of the next section
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     return (
         <div className="navbar">
             <div className="hiddenLinks" id={openLinks ? "open" : "close"}>
@@ -40,7 +56,8 @@ function Navbar() {
                 <Link to="/">Home</Link>
                 <Link onClick={scrollToStats}>Stats</Link>
                 <Link onClick={scrollToMoments}>Moments</Link>
-                <Link to="/contact">Contact</Link>
+                <Link onClick={scrollToPictures}>Pictures</Link>
+                <Link onClick={scrollToNote}>Note</Link>
                 <button onClick={toggleNavbar}>
                     <MenuIcon />
                 </button>

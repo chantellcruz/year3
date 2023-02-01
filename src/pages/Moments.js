@@ -8,7 +8,7 @@ function Moments() {
   return (
     <div id="moments">
       <h1>A few of my favorite moments together</h1>
-      <div class="flex-container">
+      <div className="flex-container">
   <div id="column">
   <img src={Rainier} width="450px" />
     <h2>Hiking at rainier</h2>
@@ -29,4 +29,4 @@ function Moments() {
   )
 }
 
-export default Moments
+export default Moments;

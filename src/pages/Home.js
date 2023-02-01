@@ -32,7 +32,7 @@ export default function Home() {
         <img src={Lego} width="800px" />
         <h1>Yay we made it 3 years</h1>
         <p>wowowowow. look at us.</p>
-        <button className="btn-scroll" onClick={scrollToStats}>Let's see some stats</button>
+        <button className="btn-scroll" onClick={scrollToStats} style={{outline: 'none'}}>Let's see some stats</button>
       </Container>
     </div>
   );

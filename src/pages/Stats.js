@@ -6,7 +6,7 @@ function Stats() {
     <div id="stats">
       <h1>Our relationship by the numbers</h1>
       <h3>This feels so very type A of me - I'm sorry.</h3>
-      <div class="flex-container">
+      <div className="flex-container">
   <div id="column">
     <h1>3</h1>
     <p>years dating</p>
@@ -20,7 +20,7 @@ function Stats() {
     <p>shows watched</p>
     </div>
 </div>
-<div class="flex-container">
+<div className="flex-container">
   <div id="column">
     <h1>10</h1>
     <p>states visited</p>
