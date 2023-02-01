@@ -16,6 +16,7 @@ import Eleven from '../assets/photos/011.jpg';
 import Twelve from '../assets/photos/012.jpg';
 import Thirteen from '../assets/photos/013.jpg';
 import Fourteen from '../assets/photos/014.jpg';
+import '../styles/Pictures.css';
 
 export default function Pictures() {
   return (

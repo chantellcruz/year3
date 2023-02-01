@@ -71,7 +71,7 @@ function Stats() {
               fontFamily: 'poppins, sans-serif',
               fontWeight: 600
             }} />
-          <p>halo campaigns played together</p>
+          <p>halo campaigns completed</p>
         </div>
         <div id="column">
           <CountUp end={13} duration={2} enableScrollSpy

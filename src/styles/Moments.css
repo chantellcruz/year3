@@ -3,18 +3,17 @@
     padding: 10vh 0;
 }
 
-.flex-container {
+#moments .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 50px;
+    padding: 50px 100px;
+    flex-wrap: wrap;
 }
 
 #moments .flex-container #column {
     width: 500px;
     margin: 15px;
-    border-radius: 20px;
-    padding: 15px;
 }
 
 #moments .flex-container #column img {
@@ -31,20 +30,25 @@
 
 @media screen and (max-width: 1440px) {
     #moments {
-        padding: 10vh 10vw;
+        padding: 10vh 50px;
     }
 
+    #moments .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
     #moments .flex-container #column {
-        width: 450px;
+        width: 400px;
         margin: 15px;
-        border-radius: 20px;
-        padding: 15px;
     }
 
     #moments .flex-container #column img {
-        width: 400px;
+        width: 300px;
     }
-
     h2 {
         font-size: 40px;
     }

@@ -1,0 +1,7 @@
+#pictures .flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    padding: 30px;
+}
