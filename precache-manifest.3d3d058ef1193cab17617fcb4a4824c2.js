@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "9eaf6109e3d50edc4bea",
-    "url": "/year3/static/css/main.4c8efddb.chunk.css"
+    "revision": "1d9446cfdb0a4b0e8c21",
+    "url": "/year3/static/css/main.87146b12.chunk.css"
   },
   {
-    "revision": "9eaf6109e3d50edc4bea",
-    "url": "/year3/static/js/main.a01eda0f.chunk.js"
+    "revision": "1d9446cfdb0a4b0e8c21",
+    "url": "/year3/static/js/main.e55ebf12.chunk.js"
   },
   {
-    "revision": "d703939eb96bb0ffad6e",
-    "url": "/year3/static/js/runtime~main.28a788dd.js"
+    "revision": "41870ae4d9d9b5b5e515",
+    "url": "/year3/static/js/runtime~main.4bf64cd3.js"
   },
   {
-    "revision": "c6bfc8d6e6bb3c25f663",
-    "url": "/year3/static/js/2.902ea58d.chunk.js"
+    "revision": "59615436b0c61e91485b",
+    "url": "/year3/static/js/2.8843d1cc.chunk.js"
   },
   {
-    "revision": "8dc02e59a2839720f202",
-    "url": "/year3/static/js/3.b2f32255.chunk.js"
+    "revision": "52b9eb7b02795767ae23",
+    "url": "/year3/static/js/3.98ddad6b.chunk.js"
   },
   {
     "revision": "2e26069b0bc9d3d2f6c96ca7470fba1d",
@@ -38,6 +38,18 @@ self.__precacheManifest = [
   {
     "revision": "62a7c820d75bbb50dc58f4dc107db1a5",
     "url": "/year3/static/media/batuu.62a7c820.png"
+  },
+  {
+    "revision": "ae0e1b9c2e64ccfb472865027ef5a62d",
+    "url": "/year3/static/media/crazy-eyes.ae0e1b9c.png"
+  },
+  {
+    "revision": "a84b9425ec32f802784e884463e81f0d",
+    "url": "/year3/static/media/lego.a84b9425.png"
+  },
+  {
+    "revision": "114a02bb0af1eb7a4ed5f4bdfd854668",
+    "url": "/year3/static/media/apples.114a02bb.png"
   },
   {
     "revision": "12c9ef968630bd90f812d3add8637b23",
@@ -100,19 +112,19 @@ self.__precacheManifest = [
     "url": "/year3/static/media/coming-soon.998757d4.png"
   },
   {
-    "revision": "3d4a46685ab3c59bc4c2c628ff4f3f02",
-    "url": "/year3/static/media/BeachesAndCream.3d4a4668.otf"
-  },
-  {
     "revision": "c3b887af8c2e228c02052216d1177d3e",
     "url": "/year3/static/media/Aurebesh.c3b887af.otf"
+  },
+  {
+    "revision": "3d4a46685ab3c59bc4c2c628ff4f3f02",
+    "url": "/year3/static/media/BeachesAndCream.3d4a4668.otf"
   },
   {
     "revision": "34f735d9c0e80a5d95fc44d0e320ce99",
     "url": "/year3/static/media/trashh.34f735d9.png"
   },
   {
-    "revision": "a7fd0816f7d449f16d98784c769b6f43",
+    "revision": "1d007e90651b109f142f082a695e182f",
     "url": "/year3/index.html"
   }
 ];
