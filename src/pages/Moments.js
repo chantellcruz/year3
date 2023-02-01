@@ -22,7 +22,7 @@ function Moments() {
   <div id="column">
   <img src={Batuu} width="450px" />
     <h2>visiting batuu</h2>
-    <p>i really enjoyed you enjoying all the star wars things and being at disney finally :-)</p>
+    <p>i really enjoyed you enjoying all the star wars things and being at disney finally :-{')'}/p>
     </div>
 </div>
     </div>

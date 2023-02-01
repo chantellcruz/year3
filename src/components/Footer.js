@@ -74,7 +74,7 @@ function Footer() {
                     Don't actually sign up for notifications because I don't have this functioning lol.
                     <div id="sub">
                         <input></input>
-                        <button>ilysm! {'>'}:(</button>
+                        <button>ilysm! {'>'}:{'('}</button>
                     </div>
                 </div>
 
