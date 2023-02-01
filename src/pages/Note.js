@@ -1,12 +1,14 @@
 import React from 'react';
+import Trash from '../assets/trash.png';
+import '../styles/Note.css';
 
 
 function Note() {
     return (
-        <div id="note" style={{ padding: '10vh' }}>
+        <div id="note">
             <h1>a lil note from me</h1>
             <div className="paragraph">
-                <p>Hi boyfriend. :-{')'}
+                <p>Hi boyfriend. :-{') '} 
                     I hope you enjoy this lil webpage that I made and don't think if it's too cringe.
                     If you think it's too cringe...  it's too late.
                     It is on the internet now. :0
@@ -14,6 +16,8 @@ function Note() {
                     Anyway, I just wanted to remind you that I love you sm and that I feel so lucky to be dating you.
                     I enjoy all our stupid shenanigans, hikes, travels, and just doing anything together.
                     I hope we have plenty more adventures because I like you too much now.
+                    <br></br><br></br>
+                    Thank you for continuing to be the most patient, kind, and funny boyo I know.
                 </p>
                 <h2>xoxo lov u</h2>
             </div>

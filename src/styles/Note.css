@@ -1,0 +1,7 @@
+#note {
+    background-image: url('../assets/trashh.png');
+    background-size: 80vw;
+    padding: 10vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}

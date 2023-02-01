@@ -17,12 +17,12 @@ function Moments() {
   <div id="column">
   <img src={Rainier2} width="450px" />
   <h2>Hiking at rainier pt. 2</h2>
-    <p>where i thought we were going to die from "Exposure to the elements"</p>
+    <p>where i thought we were going to die from "exposure to the elements" (but didn't)</p>
     </div>
   <div id="column">
   <img src={Batuu} width="450px" />
     <h2>visiting batuu</h2>
-    <p>i really enjoyed you enjoying all the star wars things and being at disney finally :-{')'}/p>
+    <p>i really enjoyed you enjoying all the star wars things and being at disney finally :-{')'}</p>
     </div>
 </div>
     </div>

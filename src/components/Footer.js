@@ -2,7 +2,7 @@ import React from 'react';
 import '../styles/Footer.css';
 import { Link } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Lego from '../assets/lego-heart.gif';
+import Lego from '../assets/lego-heart-white.png';
 
 function Footer() {
 
@@ -53,7 +53,7 @@ function Footer() {
             <div id="content">
 
                 <div className="footer-1">
-                    <img src={Lego} width="200px" />
+                    <img src={Lego} height="150px" />
                 </div>
 
                 <div className="footer-2">

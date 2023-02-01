@@ -43,6 +43,14 @@ function Navbar() {
         }
       };
 
+      const scrollToComingSoon = () => {
+        const element = document.getElementById('coming-soon');
+        if (element) {
+          // 👇 Will scroll smoothly to the top of the next section
+          element.scrollIntoView({ behavior: 'smooth' });
+        }
+      };
+
     return (
         <div className="navbar">
             <div className="hiddenLinks" id={openLinks ? "open" : "close"}>
@@ -57,6 +65,7 @@ function Navbar() {
                 <Link onClick={scrollToMoments}>Moments</Link>
                 <Link onClick={scrollToPictures}>Pictures</Link>
                 <Link onClick={scrollToNote}>Note</Link>
+                <Link onClick={scrollToComingSoon}>???</Link>
                 <button onClick={toggleNavbar}>
                     <MenuIcon />
                 </button>
