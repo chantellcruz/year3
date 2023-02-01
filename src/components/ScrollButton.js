@@ -27,9 +27,9 @@ const ScrollButton = () => {
 
   const Button = styled.div`
   position: fixed; 
-  left: 2vh;
-  bottom: 4vh;
-  height: 20px;
+  left: 20px;
+  bottom: 20px;
+  height: 40px;
   backgroundColor: black;
   font-size: 12px;
   padding: 5px;
