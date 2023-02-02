@@ -40,7 +40,7 @@ function Moments() {
         <div id="column">
           <img src={Apples} />
           <h2>Apple picking</h2>
-          <p>where i thought we were going to die from "exposure to the elements" (but didn't)</p>
+          <p>i've never seen apples on a tree before that day, plus that cider & donuts were *chefs kiss*</p>
         </div>
       </div>
     </div>
